@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { MdOutlineSettingsInputAntenna } from "react-icons/md";
+import logo from "../assets/image/51-cash-logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const router = useRouter();
@@ -12,24 +14,34 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="shadow ">
-        <nav className=" z-10 custom-container  py-4  flex justify-between  items-center ">
+      <div className="bg-lightGrey ">
+        <nav className=" z-10 custom-container  h-[80px]  flex justify-between  items-center ">
           <Link href="/" className="flex items-center">
-            {/* <Image width={100} height={100} src={darkLogo} alt="" /> */}
-            <h2 className="text-xl font-bold text-primary">logo</h2>
+            <Image
+              className="w-12 h-12"
+              width={100}
+              height={100}
+              src={logo}
+              alt=""
+            />
+            <h2 className="text-xl font-bold text-primary uppercase tracking-tight">
+              Cash
+            </h2>
           </Link>
           <div className="hidden  lg:flex  lg:items-center lg:space-x-6 max-w-4xl">
             <div
-              onMouseOver={() => setShowDropDown(true)}
-              className="group relative "
+              // onMouseOver={() => setShowDropDown(true)}
+              className="group relative  "
             >
               <Link
                 href="/"
-                className={`font-semibold text-[18px] outline-none focus:outline-none py-1 bg-white rounded-sm flex items-center ${
+                className={`pb-5 mt-4 font-semibold outline-none focus:outline-none py-1 rounded-sm flex items-center ${
                   router.pathname === "/" ? "text-primary" : "text-gray-800 "
                 }`}
               >
-                <span className=" font-medium flex-1 pr-1">Use Cases</span>
+                <span className=" font-medium flex-1 pr-1 uppercase">
+                  Use Cases
+                </span>
                 <span>
                   <svg
                     className="fill-current mt-2 h-6 w-6 transform
@@ -41,76 +53,72 @@ const Navbar = () => {
                   </svg>
                 </span>
               </Link>
-              {showDropdown && (
-                <div className="absolute top-12  bg-gray-200 px-6 py-5 w-[700px] ">
-                  <h2 className="text-xl font-bold mb-2 ">Features</h2>
-                  <div className=" flex gap-5 flex-col lg:flex-row items-center ">
-                    <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Inventory Management
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Inventory Management
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
+              {/* {showDropdown && ( */}
+              <div className="absolute top-16 hidden group-hover:block bg-gray-200 px-6 py-5 w-[700px] ">
+                <h2 className="text-xl font-bold mb-2 ">Features</h2>
+                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                  <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Inventory Management
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
                     </div>
                   </div>
-                  <div className=" flex gap-5 flex-col lg:flex-row items-center ">
-                    <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Inventory Management
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Inventory Management
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
+                  <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Inventory Management
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
                     </div>
                   </div>
                 </div>
-              )}
+                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                  <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Inventory Management
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Inventory Management
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* )} */}
             </div>
 
             <Link
               href="/project"
-              className={`font-semibold text-[18px]  ${
+              className={`font-semibold uppercase ${
                 router.pathname === "/project"
                   ? "text-primary"
                   : "text-gray-800 "
@@ -120,7 +128,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/blog"
-              className={`font-semibold text-[18px]  ${
+              className={`font-semibold uppercase  ${
                 router.pathname === "/blog" ? "text-primary" : "text-gray-800 "
               }`}
             >
@@ -146,7 +154,7 @@ const Navbar = () => {
             <div className="">
               <button
                 onClick={() => setIsMenuOpen(true)}
-                className="drawer-button flex items-end text-white text-3xl text-black-600 py-3"
+                className="drawer-button flex items-end  text-3xl text-black-600 py-3"
               >
                 <AiOutlineMenuUnfold></AiOutlineMenuUnfold>
               </button>
@@ -160,17 +168,26 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="duration-500 transition-all navbar-menu relative z-50 lg:hidden ">
           <div className=" fixed inset-0 bg-transparent"></div>
-          <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-zinc-900 border-r overflow-y-auto">
+          <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-lightGrey border-r overflow-y-auto">
             <div className="flex items-center justify-between mb-8">
               <Link href="/" className="flex items-center">
-                {/* <Image width="" height="" src={darkLogo} alt="" /> */}
+                <Image
+                  className="w-12 h-12"
+                  width={100}
+                  height={100}
+                  src={logo}
+                  alt=""
+                />
+                <h2 className="text-xl font-bold text-primary uppercase tracking-tight">
+                  Cash
+                </h2>
               </Link>
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="navbar-close"
               >
                 <svg
-                  className="h-6 w-6 text-gray-200 cursor-pointer hover:text-gray-500"
+                  className="h-6 w-6 text-gray-900 cursor-pointer hover:text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -186,70 +203,129 @@ const Navbar = () => {
               </button>
             </div>
 
-            <div className="space-y-6 flex flex-col items-center">
+            <div className=" flex flex-col ">
+              <div
+                onClick={() => setShowDropDown(!showDropdown)}
+                className="group  "
+              >
+                <Link
+                  href="/"
+                  className={`hover:bg-gray-200 py-3 my-2 px-2 w-full font-semibold text-[18px] outline-none focus:outline-none rounded-sm flex items-center ${
+                    router.pathname === "/" ? "text-primary" : "text-black-800 "
+                  }`}
+                >
+                  <span className=" font-medium flex-1 pr-1">Use Cases</span>
+                  <span>
+                    <svg
+                      className={`fill-current mt-2 h-6 w-6 transform
+                      transition duration-150 ease-in-out  ${
+                        showDropdown ? "-rotate-180" : "-rotate-180"
+                      }`}
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </span>
+                </Link>
+                {showDropdown && (
+                  <div className=" top-16  group-hover:block bg-gray-200 px-6 py-5 w-full lg:w-[700px] ">
+                    <h2 className="text-xl font-bold mb-2 ">Features</h2>
+                    <div className=" flex gap-2 flex-col lg:flex-row items-center ">
+                      <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                        <button className="text-xl p-3 bg-primary text-white">
+                          <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                        </button>
+                        <div className="">
+                          <h2 className="font-bold text-sm uppercase">
+                            Inventory Management
+                          </h2>
+                          <p className="text-sm text-gray-600">
+                            Real Time Inventory Sites From Materials to finish
+                            good
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                        <button className="text-xl p-3 bg-primary text-white">
+                          <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                        </button>
+                        <div className="">
+                          <h2 className="font-bold text-sm uppercase">
+                            Inventory Management
+                          </h2>
+                          <p className="text-sm text-gray-600">
+                            Real Time Inventory Sites From Materials to finish
+                            good
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=" flex gap-2 flex-col lg:flex-row items-center ">
+                      <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                        <button className="text-xl p-3 bg-primary text-white">
+                          <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                        </button>
+                        <div className="">
+                          <h2 className="font-bold text-sm uppercase">
+                            Inventory Management
+                          </h2>
+                          <p className="text-sm text-gray-600">
+                            Real Time Inventory Sites From Materials to finish
+                            good
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                        <button className="text-xl p-3 bg-primary text-white">
+                          <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                        </button>
+                        <div className="">
+                          <h2 className="font-bold text-sm uppercase">
+                            Inventory Management
+                          </h2>
+                          <p className="text-sm text-gray-600">
+                            Real Time Inventory Sites From Materials to finish
+                            good
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
               <Link
-                duration={500}
                 href="/"
-                className={`font-semibold ${
-                  router.pathname === "/" ? "text-primary" : "text-gray-200 "
+                className={`font-semibold text-[18px] hover:bg-gray-200 py-3 my-2 px-2 ${
+                  router.pathname === "/" ? "text-primary" : "text-black-800 "
                 }`}
               >
-                Home
+                Pricing
+              </Link>
+              <Link
+                href="/"
+                className={`font-semibold text-[18px] hover:bg-gray-200 py-3 my-2 px-2 ${
+                  router.pathname === "/" ? "text-primary" : "text-black-800 "
+                }`}
+              >
+                Contact Us
               </Link>
 
-              <Link
-                href="/about"
-                className={`font-semibold ${
-                  router.pathname === "/about"
-                    ? "text-primary"
-                    : "text-gray-200 "
-                }`}
-              >
-                About
-              </Link>
-
-              <Link
-                href="/service"
-                className={`font-semibold ${
-                  router.pathname === "/service"
-                    ? "text-primary"
-                    : "text-gray-200 "
-                }`}
-              >
-                Services
-              </Link>
-
-              <Link
-                href="/project"
-                className={`font-semibold ${
-                  router.pathname === "/project"
-                    ? "text-primary"
-                    : "text-gray-200 "
-                }`}
-              >
-                Project
-              </Link>
-              <Link
-                href="/blog"
-                className={`font-semibold ${
-                  router.pathname === "/blog"
-                    ? "text-primary"
-                    : "text-gray-200 "
-                }`}
-              >
-                Blog
-              </Link>
-
-              <Link
-                href="/contact"
-                className={`font-semibold ${
-                  router.pathname === "/contact"
-                    ? "text-primary"
-                    : "text-gray-200 "
-                }`}
-              >
-                Conatct
-              </Link>
+              <div className="flex space-x-2 items-center mt-5">
+                <Link
+                  href="/"
+                  className="px-6 hover:bg-primary hover:text-white duration-200 py-[7px]  rounded-sm text-primary font-semibold tracking-wider border border-primary"
+                >
+                  Login
+                </Link>
+                <Link
+                  href="/contact"
+                  className="px-4 hover:opacity-90 py-2  rounded-sm text-white font-semibold tracking-wider bg-primary"
+                >
+                  Start Free Trial
+                </Link>
+              </div>
             </div>
           </nav>
         </div>
