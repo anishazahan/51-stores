@@ -24,7 +24,7 @@ const Navbar = () => {
               src={logo}
               alt=""
             />
-            <h2 className="text-xl font-bold text-primary uppercase tracking-tight">
+            <h2 className="text-xl font-RightRegular font-medium text-primary tracking-wide ">
               Cash
             </h2>
           </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
                   router.pathname === "/" ? "text-primary" : "text-gray-800 "
                 }`}
               >
-                <span className=" font-semibold text-[15px] flex-1 pr-1 uppercase">
+                <span className=" font-semibold text-sm flex-1 pr-1 uppercase">
                   Use Cases
                 </span>
                 <span>
@@ -168,7 +168,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className=" duration-500 transition-all navbar-menu relative z-50 lg:hidden ">
           <div className=" fixed inset-0 bg-transparent"></div>
-          <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-lightGrey border-r overflow-y-auto scale-up-hor-left">
+          <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-lightGrey border-r overflow-y-auto scale-up-hor-left bg-white">
             <div className="flex items-center justify-between mb-8">
               <Link href="/" className="flex items-center">
                 <Image

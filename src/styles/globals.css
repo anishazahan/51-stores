@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'RighteousRegular';
+  src: url('../assets/font/Righteous-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .custom-container {
   @apply px-5 md:px-10 max-w-7xl mx-auto;
 }
 
+/* body{
+  @apply font-RightRegular
+} */
 
 
 /* .................navabr animation.................. */
@@ -88,4 +99,9 @@
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
+}
+
+
+.testimonial {
+  background-image: url('../assets/image/Frame 1.png');
 }
