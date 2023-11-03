@@ -19,7 +19,7 @@ const Footer = () => {
                   alt=""
                 />
                 <h2 className="text-xl font-RightRegular font-medium text-white tracking-wide ">
-                  Cash
+                  Store
                 </h2>
               </Link>
               <p className="text-gray-400 text-sm">
@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-bold uppercase text-gray-500">email us</p>
-                <p className="text-gray-300 text-sm">51cash@gmail.com</p>
+                <p className="text-gray-300 text-sm">51Store@gmail.com</p>
               </div>
             </div>
             <div className="flex flex-col items-start font-semibold">
