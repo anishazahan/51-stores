@@ -53,95 +53,89 @@ const Navbar = () => {
                   </svg>
                 </span>
               </Link>
-              {showDropdown && (
-                <div className="scale-up-ver-top absolute top-14 group-hover:duration-500  block -left-20 bg-gray-200 px-6 py-5 w-[700px] ">
-                  <h2 className="text-xl font-bold mb-2 ">Features</h2>
-                  <div className=" flex gap-5 flex-col lg:flex-row items-center ">
-                    <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Grocery & Convenience
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">Cafe</h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
+              {/* {showDropdown && ( */}
+              <div className="scale-up-ver-top absolute top-14 group-hover:duration-500  hidden group-hover:block -left-20 bg-gray-200 px-6 py-5 w-[700px] ">
+                <h2 className="text-xl font-bold mb-2 ">Features</h2>
+                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                  <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Grocery & Convenience
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
                     </div>
                   </div>
-                  <div className=" flex gap-5 flex-col lg:flex-row items-center ">
-                    <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Restaurant
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">Retail</h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className=" flex gap-5 flex-col lg:flex-row items-center ">
-                    <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">Bar</h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
-                      <button className="text-xl p-3 bg-primary text-white">
-                        <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                      </button>
-                      <div className="">
-                        <h2 className="font-bold text-sm uppercase">
-                          Clothing and Accessories
-                        </h2>
-                        <p className="text-sm text-gray-600">
-                          Real Time Inventory Sites From Materials to finish
-                          good
-                        </p>
-                      </div>
+                  <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">Cafe</h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
                     </div>
                   </div>
                 </div>
-              )}
+                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                  <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Restaurant
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">Retail</h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                  <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">Bar</h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150">
+                    <button className="text-xl p-3 bg-primary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        Clothing and Accessories
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* )} */}
             </div>
 
             <Link
