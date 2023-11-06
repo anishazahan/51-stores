@@ -6,30 +6,30 @@ import { BsArrowRight } from "react-icons/bs";
 const Feature = () => {
   return (
     <div>
-      <section class="bg-[#f7f6f2]">
+      <section className="bg-[#f7f6f2]">
         {/* <!-- Container --> */}
-        <div class="mx-auto custom-container py-16 ">
+        <div className="mx-auto custom-container py-16 ">
           {/* <!-- Heading --> */}
-          <div class="mx-auto max-w-3xl text-center">
-            <h2 class="mb-4 mt-6 text-3xl font-bold md:text-5xl">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="mb-4 mt-6 text-3xl font-bold md:text-5xl">
               Make every step user-centric
             </h2>
-            <p class="mx-auto mb-8 mt-4 max-w-[528px] text-[#636262] md:mb-12 lg:mb-16">
+            <p className="mx-auto mb-8 mt-4 max-w-[528px] text-[#636262] md:mb-12 lg:mb-16">
               Lorem ipsum dolor sit amet consectetur adipiscing elit ut
               aliquam,purus sit amet luctus magna fringilla urna
             </p>
           </div>
           {/* <!-- Features --> */}
-          <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Support</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Support</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>
@@ -41,14 +41,14 @@ const Feature = () => {
               </Link>
             </div>
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Resource</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Resource</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>
@@ -60,14 +60,14 @@ const Feature = () => {
               </Link>
             </div>
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Quality</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Quality</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>
@@ -79,14 +79,14 @@ const Feature = () => {
               </Link>
             </div>
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Speed</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Speed</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>
@@ -98,14 +98,14 @@ const Feature = () => {
               </Link>
             </div>
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Flexibility</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Flexibility</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>
@@ -117,14 +117,14 @@ const Feature = () => {
               </Link>
             </div>
             {/* <!-- Item --> */}
-            <div class="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
+            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
               <div className="inline-block">
                 <button className="text-xl p-3 bg-primary text-white inline">
                   <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                 </button>
               </div>
-              <p class="text-xl font-semibold">Organise</p>
-              <p class="text-sm text-[#636262]">
+              <p className="text-xl font-semibold">Organise</p>
+              <p className="text-sm text-[#636262]">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                 aliquam, purus sit.
               </p>

@@ -113,3 +113,12 @@
   background-position: center;
   height: 100vh;
 }
+
+.RetailImg {
+  /* background: url("../assets/image/retail.jpeg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/image/retail.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
