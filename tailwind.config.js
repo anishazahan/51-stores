@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         primary: "#230056",
         secondary: "#40009d",
+        lightGray: "#636262",
+        bgLightGray: "#636262",
       },
       fontFamily: {
         RightRegular: ["RighteousRegular", "sans"],

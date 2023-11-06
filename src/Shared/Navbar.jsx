@@ -82,7 +82,10 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" flex gap-5 flex-col lg:flex-row items-center ">
+                <Link
+                  href="/restaurant"
+                  className=" flex gap-5 flex-col lg:flex-row items-center "
+                >
                   <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
                     <button className="text-xl p-3 bg-primary text-white">
                       <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
@@ -107,7 +110,7 @@ const Navbar = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </Link>
                 <div className=" flex gap-5 flex-col lg:flex-row items-center ">
                   <div className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150">
                     <button className="text-xl p-3 bg-primary text-white">

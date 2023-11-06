@@ -154,8 +154,8 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="my-10 w-full border border-solid border-[#101010]"></div>
-          <div className="flex flex-col items-center justify-between md:flex-row pb-16">
+          <div className="my-5 w-full border border-solid border-[#101010]"></div>
+          <div className="flex flex-col items-center justify-between md:flex-row pb-5">
             <div className="flex-none">
               <p className="text-gray-300 text-sm">
                 © Copyright 2021. All rights reserved.

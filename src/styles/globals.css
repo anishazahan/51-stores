@@ -106,4 +106,10 @@
   background-image: url('../assets/image/Frame 1.png');
 }
 
-
+.bannerImg {
+  background: url("../assets/image/restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}

@@ -10,13 +10,13 @@ import Navbar from "@/Shared/Navbar";
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Banner></Banner>
       <Feature></Feature>
       <MainTab></MainTab>
       <FAQ></FAQ>
       <Testimonial></Testimonial>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 }
