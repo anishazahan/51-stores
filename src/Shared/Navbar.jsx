@@ -148,9 +148,9 @@ const Navbar = () => {
             </div>
 
             <Link
-              href="/project"
+              href="/pricing"
               className={`font-semibold text-sm uppercase ${
-                router.pathname === "/project"
+                router.pathname === "/pricing"
                   ? "text-primary"
                   : "text-gray-800 "
               }`}
@@ -158,9 +158,21 @@ const Navbar = () => {
               Pricing
             </Link>
             <Link
-              href="/blog"
+              href="/contact"
               className={`font-semibold text-sm uppercase  ${
-                router.pathname === "/blog" ? "text-primary" : "text-gray-800 "
+                router.pathname === "/contact"
+                  ? "text-primary"
+                  : "text-gray-800 "
+              }`}
+            >
+              Contact Us
+            </Link>
+            <Link
+              href="/terms-service"
+              className={`font-semibold text-sm uppercase  ${
+                router.pathname === "/terms-service"
+                  ? "text-primary"
+                  : "text-gray-800 "
               }`}
             >
               Contact Us
