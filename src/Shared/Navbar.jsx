@@ -158,19 +158,19 @@ const Navbar = () => {
               Pricing
             </Link>
             <Link
-              href="/contact"
+              href="/terms-service"
               className={`font-semibold text-sm uppercase  ${
-                router.pathname === "/contact"
+                router.pathname === "/terms-service"
                   ? "text-primary"
                   : "text-gray-800 "
               }`}
             >
-              Contact Us
+              Terms of Service
             </Link>
             <Link
-              href="/terms-service"
+              href="/contact"
               className={`font-semibold text-sm uppercase  ${
-                router.pathname === "/terms-service"
+                router.pathname === "/contact"
                   ? "text-primary"
                   : "text-gray-800 "
               }`}

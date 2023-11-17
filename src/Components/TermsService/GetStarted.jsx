@@ -4,7 +4,7 @@ const GetStarted = () => {
   return (
     <div>
       <section>
-        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 ">
+        <div class="mx-auto w-full custom-container px-5 py-16  ">
           <div class="bg-[#f2f2f7] p-8 text-center sm:p-10 md:p-16">
             <h2 class="mb-4 text-3xl font-bold md:text-4xl">
               Join the 51 Cash Inventory
