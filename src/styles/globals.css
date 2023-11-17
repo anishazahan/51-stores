@@ -131,3 +131,12 @@
   background-position: center;
   height: 70vh;
 }
+
+.pricing-banner {
+  /* background: url("../assets/image/retail.jpeg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/image/Pricing-strategy-banner-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
