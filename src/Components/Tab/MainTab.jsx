@@ -1,20 +1,23 @@
 import React, { useState } from "react";
 import Tab1 from "./Tab1";
+import Tab2 from "./Tab2";
+import Tab3 from "./Tab3";
+import Tab4 from "./Tab4";
+import Tab5 from "./Tab5";
 
 const MainTab = () => {
-  const [activeTab, setActiveTab] = useState("Tab1"); // Initialize with Tab1 as the active tab
+  const [activeTab, setActiveTab] = useState("Track Inventory"); // Initialize with Tab1 as the active tab
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
   };
 
   const tabContent = {
-    Tab1: <Tab1></Tab1>,
-    Tab2: "Content for Tab 2",
-    Tab3: "Content for Tab 3",
-    Tab4: "Content for Tab 4",
-    Tab5: "Content for Tab 5",
-    Tab6: "Content for Tab 6",
+    "Track Inventory": <Tab1></Tab1>,
+    "Scan Barcodes": <Tab2 />,
+    "Manage Orders": <Tab3 />,
+    "User Security": <Tab4 />,
+    "Analytics & Reports": <Tab5 />,
   };
 
   return (
@@ -26,7 +29,7 @@ const MainTab = () => {
         {Object.keys(tabContent).map((tab) => (
           <button
             key={tab}
-            className={`text-gray-800 flex-justify-center text-center py-6 text-sm uppercase font-bold px-8 custom-shadow ${
+            className={`text-gray-800 flex-justify-center text-center py-6 text-sm uppercase font-bold px-5 custom-shadow ${
               activeTab === tab ? "bg-primary text-white" : ""
             }`}
             onClick={() => handleTabClick(tab)}

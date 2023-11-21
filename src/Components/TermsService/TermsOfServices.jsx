@@ -5,14 +5,14 @@ const TermsOfServices = () => {
   return (
     <div>
       <section>
-        <div class="flex flex-col items-center justify-center  ">
-          <div class="flex flex-col items-start bg-[#f2f2f7]  w-full  py-16 sm:py-20 lg:items-center">
-            <div class="grid max-w-5xl px-10 lg:grid-cols-2">
-              <div class="flex flex-col items-start self-center py-5">
-                <h1 class="mb-4 text-3xl font-bold md:text-5xl">
+        <div className="flex flex-col items-center justify-center  ">
+          <div className="flex flex-col items-start bg-[#f2f2f7]  w-full  py-16 sm:py-20 lg:items-center">
+            <div className="grid max-w-5xl px-10 lg:grid-cols-2">
+              <div className="flex flex-col items-start self-center py-5">
+                <h1 className="mb-4 text-3xl font-bold md:text-5xl">
                   Terms of Service
                 </h1>
-                <p class="mb-8 max-w-md flex-col text-sm text-[#808080] sm:text-base">
+                <p className="mb-8 max-w-md flex-col text-sm text-[#808080] sm:text-base">
                   Read our terms below to learn more about your rights and
                   responsibilities as a Flow user.
                 </p>
@@ -21,15 +21,17 @@ const TermsOfServices = () => {
             </div>
           </div>
 
-          <div class="mx-auto w-full max-w-5xl px-5 md:px-10 py-12 md:py-16 lg:py-20">
-            <p class="mb-5 text-base font-extrabold uppercase">
+          <div className="mx-auto w-full max-w-5xl px-5 md:px-10 py-12 md:py-16 lg:py-20">
+            <p className="mb-5 text-base font-extrabold uppercase">
               Last updated as of October 17, 2022
             </p>
-            <div class="mb-6 min-h-[1px] min-w-full bg-[#e2e2e2]"></div>
+            <div className="mb-6 min-h-[1px] min-w-full bg-[#e2e2e2]"></div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="text-sm font-bold uppercase sm:text-base">Services</p>
-              <p class="text-sm sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="text-sm font-bold uppercase sm:text-base">
+                Services
+              </p>
+              <p className="text-sm sm:text-base">
                 Flowspark offers a range of design services, including but not
                 limited to graphic design, web design, branding, and
                 illustration.The Company will provide the agreed-upon services
@@ -39,11 +41,11 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">
                 Client Responsibilities
               </p>
-              <p class="text-sm sm:text-base">
+              <p className="text-sm sm:text-base">
                 The client agrees to provide accurate and timely information,
                 materials, and feedback necessary for the successful completion
                 of the project. The client is responsible for obtaining any
@@ -55,11 +57,11 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">
                 Intellectual Property
               </p>
-              <p class="text-sm sm:text-base">
+              <p className="text-sm sm:text-base">
                 Any intellectual property rights, including but not limited to
                 copyrights and trademarks, in the final deliverables created by
                 the Company shall be transferred to the client upon receipt of
@@ -70,9 +72,9 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">Payment</p>
-              <p class="text-sm sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">Payment</p>
+              <p className="text-sm sm:text-base">
                 The client agrees to pay the Company the agreed-upon fees for
                 the services rendered. Payment terms, including the amount,
                 method, and schedule, will be specified in the separate
@@ -82,9 +84,11 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">Confidentiality</p>
-              <p class="text-sm sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">
+                Confidentiality
+              </p>
+              <p className="text-sm sm:text-base">
                 The Company and the client agree to keep confidential any
                 proprietary or sensitive information disclosed during the course
                 of the project. Both parties shall take reasonable measures to
@@ -92,11 +96,11 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">
                 Limitation of Liability
               </p>
-              <p class="text-sm sm:text-base">
+              <p className="text-sm sm:text-base">
                 The Company shall not be liable for any direct, indirect,
                 incidental, or consequential damages arising out of the use or
                 inability to use the services provided. The client acknowledges
@@ -105,9 +109,9 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">Termination</p>
-              <p class="text-sm sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">Termination</p>
+              <p className="text-sm sm:text-base">
                 Either party may terminate this Agreement with written notice if
                 the other party breaches any material provision and fails to
                 remedy the breach within a reasonable time. In the event of
@@ -116,9 +120,9 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-6 flex flex-col items-start gap-y-3">
-              <p class="font-bold uppercase sm:text-base">Governing Law</p>
-              <p class="text-sm sm:text-base">
+            <div className="mb-6 flex flex-col items-start gap-y-3">
+              <p className="font-bold uppercase sm:text-base">Governing Law</p>
+              <p className="text-sm sm:text-base">
                 This Agreement shall be governed by and construed in accordance
                 with the laws of [Your Jurisdiction]. Any disputes arising out
                 of this Agreement shall be subject to the exclusive jurisdiction
@@ -126,8 +130,8 @@ const TermsOfServices = () => {
               </p>
             </div>
 
-            <div class="mb-10 mt-10 min-h-[1px] min-w-full bg-[#e2e2e2]"></div>
-            <p class="mb-6 text-sm sm:text-base">
+            <div className="mb-10 mt-10 min-h-[1px] min-w-full bg-[#e2e2e2]"></div>
+            <p className="mb-6 text-sm sm:text-base">
               By accessing, browsing, or utilizing any design services,
               communication channels, or materials provided by Flowspark,
               including but not limited to graphic design, web design, branding,

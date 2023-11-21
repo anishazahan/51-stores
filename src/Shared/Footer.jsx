@@ -35,7 +35,7 @@ const Footer = () => {
                   <input
                     type="email"
                     className="m-0 block h-full max-h-8 w-full rounded-lg outline-none border-0 bg-[#101010] px-3 py-6 align-middle text-sm text-gray-300  focus:outline-0"
-                    maxlength="256"
+                    maxLength="256"
                     name="email-4"
                     placeholder="Enter your email"
                     required=""

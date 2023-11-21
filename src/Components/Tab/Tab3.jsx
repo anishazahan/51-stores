@@ -1,6 +1,6 @@
 import img from "../../assets/image/banner.png";
 
-const Tab1 = () => {
+const Tab3 = () => {
   return (
     <div>
       <section className="bg-[#f2f2f7] mt-10">
@@ -8,14 +8,14 @@ const Tab1 = () => {
           <div className="flex flex-col-reverse justify-start gap-8 sm:gap-20 lg:flex-row">
             <img src={img} alt="" className="inline-block max-w-xl" />
             <div className="flex flex-col items-start lg:justify-center">
-              <h2 className="text-xl font-bold mb-5">Track Inventory:</h2>
+              <h2 className="text-xl font-bold mb-5">Manage Orders:</h2>
               <p className="mb-6 max-w-md text-[#636262] md:mb-12">
                 {" "}
-                Efficiently monitor and manage your inventory in real-time.
-                Track stock levels, product movements, and receive alerts for
-                low stock. Zoho Invent ensures accurate and up-to-date
-                information on your inventory, empowering you to make informed
-                decisions and prevent stockouts.
+                Simplify order processing with Zoho Invent's robust order
+                management system. Track orders, manage order fulfillment, and
+                optimize order processing workflows. Ensure seamless
+                transactions and timely delivery, enhancing customer
+                satisfaction and operational efficiency.
                 <br />
               </p>
             </div>
@@ -26,4 +26,4 @@ const Tab1 = () => {
   );
 };
 
-export default Tab1;
+export default Tab3;

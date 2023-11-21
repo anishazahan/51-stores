@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { MdOutlineSettingsInputAntenna } from "react-icons/md";
 import { BsArrowRight } from "react-icons/bs";
+import { featureData } from "./featuredData";
 
 const Feature = () => {
   return (
@@ -21,120 +22,35 @@ const Feature = () => {
           </div>
           {/* <!-- Features --> */}
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
+            {featureData.map((item, index) => (
+              <div
+                key={index}
+                className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 cursor-pointer"
+              >
+                <div className="inline-block">
+                  <button className="text-xl p-3 bg-primary text-white inline">
+                    {item.icon}
+                  </button>
+                </div>
+                <p className="text-xl font-semibold">{item.title}</p>
+                <p className="text-sm text-[#636262]">{item.description}</p>
+
+                <Link
+                  href={`/features/${encodeURIComponent(
+                    item.title.toLowerCase()
+                  )}`}
+                >
+                  <div className="flex items-center space-x-2">
+                    <p className="text-sm font-medium text-primary">
+                      Learn More
+                    </p>
+                    <button className="text-sm mt-1 text-primary">
+                      <BsArrowRight />
+                    </button>
+                  </div>
+                </Link>
               </div>
-              <p className="text-xl font-semibold">Support</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
-              </div>
-              <p className="text-xl font-semibold">Resource</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
-              </div>
-              <p className="text-xl font-semibold">Quality</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
-              </div>
-              <p className="text-xl font-semibold">Speed</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
-              </div>
-              <p className="text-xl font-semibold">Flexibility</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
-            {/* <!-- Item --> */}
-            <div className="grid grid-cols-1 gap-4 shadow hover:shadow-lg bg-white p-8 ">
-              <div className="inline-block">
-                <button className="text-xl p-3 bg-primary text-white inline">
-                  <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                </button>
-              </div>
-              <p className="text-xl font-semibold">Organise</p>
-              <p className="text-sm text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-              <Link href="/" className="flex items-center space-x-2">
-                <p className="text-sm font-medium text-primary">Learn More</p>
-                <button className="text-sm mt-1 text-primary">
-                  <BsArrowRight></BsArrowRight>
-                </button>
-              </Link>
-            </div>
+            ))}
           </div>
         </div>
       </section>

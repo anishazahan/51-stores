@@ -5,30 +5,30 @@ const ContactForm = () => {
   return (
     <div>
       <section>
-        <div class="mx-auto w-full custom-container px-5 pt-16  md:pt-24 lg:pt-32">
-          <div class="grid items-center gap-4 sm:gap-20 lg:grid-cols-2">
-            <div class="flex m flex-col items-start">
-              <h2 class="mb-6 text-3xl font-bold md:text-5xl">
+        <div className="mx-auto w-full custom-container px-5 pt-16  md:pt-24 lg:pt-32">
+          <div className="grid items-center gap-4 sm:gap-20 lg:grid-cols-2">
+            <div className="flex m flex-col items-start">
+              <h2 className="mb-6 text-3xl font-bold md:text-5xl">
                 Let's build something exciting together!
               </h2>
-              <p class="mb-6 max-w-lg pb-4 text-[#636262]">
+              <p className="mb-6 max-w-lg pb-4 text-[#636262]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam, purus sit amet luctus venenatis, lectus
               </p>
-              <p class="mb-8 max-w-lg text-[#647084]">
+              <p className="mb-8 max-w-lg text-[#647084]">
                 Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
                 amet luctus venenatis elit ut aliquam, purus sit amet luctus
                 venenatis
               </p>
-              <div class="flex">
+              <div className="flex">
                 <Image
                   src={img}
                   alt=""
-                  class="mr-4 inline-block h-16 w-16 object-cover"
+                  className="mr-4 inline-block h-16 w-16 object-cover"
                 />
-                <div class="flex flex-col">
-                  <h6 class="font-bold">Laila Bahar</h6>
-                  <p class="text-sm text-[#636262]">Designer</p>
+                <div className="flex flex-col">
+                  <h6 className="font-bold">Laila Bahar</h6>
+                  <p className="text-sm text-[#636262]">Designer</p>
                 </div>
               </div>
             </div>

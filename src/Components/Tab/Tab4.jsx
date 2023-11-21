@@ -1,6 +1,6 @@
 import img from "../../assets/image/banner.png";
 
-const Tab1 = () => {
+const Tab4 = () => {
   return (
     <div>
       <section className="bg-[#f2f2f7] mt-10">
@@ -8,14 +8,15 @@ const Tab1 = () => {
           <div className="flex flex-col-reverse justify-start gap-8 sm:gap-20 lg:flex-row">
             <img src={img} alt="" className="inline-block max-w-xl" />
             <div className="flex flex-col items-start lg:justify-center">
-              <h2 className="text-xl font-bold mb-5">Track Inventory:</h2>
+              <h2 className="text-xl font-bold mb-5">User Security:</h2>
               <p className="mb-6 max-w-md text-[#636262] md:mb-12">
                 {" "}
-                Efficiently monitor and manage your inventory in real-time.
-                Track stock levels, product movements, and receive alerts for
-                low stock. Zoho Invent ensures accurate and up-to-date
-                information on your inventory, empowering you to make informed
-                decisions and prevent stockouts.
+                Prioritize the security of your inventory data with Zoho
+                Invent's comprehensive user security features. Implement user
+                permissions, role-based access control, and secure
+                authentication methods. Protect sensitive information and ensure
+                that only authorized personnel can access and modify critical
+                data.
                 <br />
               </p>
             </div>
@@ -26,4 +27,4 @@ const Tab1 = () => {
   );
 };
 
-export default Tab1;
+export default Tab4;
