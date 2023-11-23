@@ -173,16 +173,7 @@ const Navbar = () => {
           <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-lightGrey border-r overflow-y-auto scale-up-hor-left bg-white">
             <div className="flex items-center justify-between mb-8">
               <Link href="/" className="flex items-center">
-                <Image
-                  className="w-12 h-12"
-                  width={100}
-                  height={100}
-                  src={logo}
-                  alt=""
-                />
-                <h2 className="text-xl font-bold text-primary uppercase tracking-tight">
-                  Store
-                </h2>
+                <Image className="w-28" src={logo} alt="" />
               </Link>
               <button
                 onClick={() => setIsMenuOpen(false)}
