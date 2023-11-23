@@ -58,7 +58,7 @@ const OptionalPricing = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col rounded-md bg-black px-10 py-12 text-white">
+              <div className="flex flex-col rounded-md bg-secondary px-10 py-12 text-white">
                 <div className="flex w-full flex-col items-center justify-between sm:flex-row sm:items-center">
                   <h2 className="text-3xl font-bold md:text-5xl">
                     $149
@@ -74,7 +74,7 @@ const OptionalPricing = () => {
                   </a>
                 </div>
                 <div className="mb-6 mt-6 border-[0.5px] border-neutral-300"></div>
-                <p className="text-[#636262] max-[479px]:text-sm">
+                <p className="text-white max-[479px]:text-sm">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit ut
                   aliquam,purus sit amet luctus magna fringilla urna
                 </p>
