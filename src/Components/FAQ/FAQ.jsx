@@ -67,12 +67,12 @@ const FAQ = () => {
                   </div>
                 </div>
                 <div className="mb-6 mt-8 h-[0.5px] w-full bg-[#a6a6a6]"></div>
-                <a
+                <Link
                   href="#"
-                  className="inline-block items-center bg-primary px-6 py-3 text-center font-semibold text-white"
+                  className="inline-block items-center bg-secondary px-6 py-3 text-center font-semibold text-white"
                 >
                   Get In Touch
-                </a>
+                </Link>
               </div>
             </div>
 

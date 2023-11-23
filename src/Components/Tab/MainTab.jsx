@@ -25,12 +25,12 @@ const MainTab = () => {
       <h2 className="mt-6 text-center text-3xl font-bold md:text-4xl mb-14">
         What makes Zoho Invent GST Compliant
       </h2>
-      <div className="border flex justify-between max-w-4xl mx-auto">
+      <div className="border flex flex-wrap flex-row justify-center lg:justify-between max-w-4xl mx-auto">
         {Object.keys(tabContent).map((tab) => (
           <button
             key={tab}
             className={`text-gray-800 flex-justify-center text-center py-6 text-sm uppercase font-bold px-5 custom-shadow ${
-              activeTab === tab ? "bg-primary text-white" : ""
+              activeTab === tab ? "bg-secondary text-white" : ""
             }`}
             onClick={() => handleTabClick(tab)}
           >
@@ -38,7 +38,7 @@ const MainTab = () => {
           </button>
         ))}
       </div>
-      <div className="max-w-4xl mx-auto mt-4">
+      <div className="max-w-4xl mx-auto mt-4 ">
         <div className="tab-content">{tabContent[activeTab]}</div>
       </div>
     </div>

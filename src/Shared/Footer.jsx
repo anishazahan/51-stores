@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../assets/image/51-cash-logo.png";
+import logo from "../assets/image/51stores@3x.png";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,15 +12,12 @@ const Footer = () => {
             <div className="flex max-w-[400px] flex-col gap-8 max-[991px]:[grid-area:span_1/span_3/span_1/span_3] max-[700px]:[grid-area:span_1/span_2/span_1/span_2]">
               <Link href="/" className="flex items-center">
                 <Image
-                  className="w-12 h-12"
-                  width={100}
-                  height={100}
+                  className="w-28"
+                  // width={100}
+                  // height={100}
                   src={logo}
                   alt=""
                 />
-                <h2 className="text-xl font-RightRegular font-medium text-white tracking-wide ">
-                  Store
-                </h2>
               </Link>
               <p className="text-gray-400 text-sm">
                 Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit

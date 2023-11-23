@@ -7,7 +7,7 @@ const Tab4 = () => {
         <div className="mx-auto w-full py-10">
           <div className="flex flex-col-reverse justify-start gap-8 sm:gap-20 lg:flex-row">
             <img src={img} alt="" className="inline-block max-w-xl" />
-            <div className="flex flex-col items-start lg:justify-center">
+            <div className="flex flex-col items-start lg:justify-center px-10">
               <h2 className="text-xl font-bold mb-5">User Security:</h2>
               <p className="mb-6 max-w-md text-[#636262] md:mb-12">
                 {" "}
