@@ -45,7 +45,7 @@ const Footer = () => {
                     class="text-gray-300 max-[479px]:text-sm hover:text-primary"
                   >
                     {" "}
-                     Shops & Bar
+                    Shops & Bar
                   </Link>
                 </div>
               </div>
