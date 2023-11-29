@@ -5,20 +5,19 @@ const ContactForm = () => {
   return (
     <div>
       <section>
-        <div className="mx-auto w-full custom-container px-5 pt-16  md:pt-24 lg:pt-32">
+        <div className="mx-auto w-full custom-container px-5 py-16  md:py-24 lg:py-32">
           <div className="grid items-center gap-4 sm:gap-20 lg:grid-cols-2">
             <div className="flex m flex-col items-start">
               <h2 className="mb-6 text-3xl font-bold md:text-5xl">
-                Let's build something exciting together!
+                Talk to the people behind the software
               </h2>
               <p className="mb-6 max-w-lg pb-4 text-[#636262]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus
+                Send us your general questions or feedback and we’ll get back to
+                you as soon as we can.
               </p>
               <p className="mb-8 max-w-lg text-[#647084]">
-                Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus venenatis elit ut aliquam, purus sit amet luctus
-                venenatis
+                Risk-Free Trial: Try it for 14 days, on us. 100% satisfaction
+                guaranteed
               </p>
               <div className="flex">
                 <Image

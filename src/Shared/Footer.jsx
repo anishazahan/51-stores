@@ -11,17 +11,12 @@ const Footer = () => {
           <div className="grid grid-cols-[auto_1fr] justify-between gap-10 sm:grid-cols-3 lg:grid-cols-[0.45fr_auto_auto_auto]">
             <div className="flex max-w-[400px] flex-col gap-8 max-[991px]:[grid-area:span_1/span_3/span_1/span_3] max-[700px]:[grid-area:span_1/span_2/span_1/span_2]">
               <Link href="/" className="flex items-center">
-                <Image
-                  className="w-28"
-                  // width={100}
-                  // height={100}
-                  src={logo}
-                  alt=""
-                />
+                <Image className="w-28" src={logo} alt="" />
               </Link>
               <p className="text-gray-400 text-sm">
-                Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus
+                Whether you're buying and reselling or manufacturing your
+                products 51 store supports the operations you need to grow your
+                business.
               </p>
               <div className="mx-0 mb-4 w-full">
                 <form
@@ -93,31 +88,31 @@ const Footer = () => {
             <div className="flex flex-col items-start font-semibold">
               <p className="mb-4 text-sm font-medium text-white">Support</p>
               <Link
-                href="/"
+                href="/pricing"
                 className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
               >
                 Pricing
               </Link>
               <Link
-                href="/"
+                href="/restaurant"
                 className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
               >
-                Documentation
+                Restaurant
               </Link>
               <Link
-                href="/"
+                href="/retail"
                 className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
               >
-                Guides
+                Retail
               </Link>
               <Link
-                href="/"
+                href="/cafe"
                 className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
               >
-                API&nbsp;Status
+                Cafe
               </Link>
             </div>
-            <div className="flex flex-col items-start font-semibold">
+            {/* <div className="flex flex-col items-start font-semibold">
               <p className="mb-4 text-sm font-medium text-white">Company</p>
               <Link
                 href="/"
@@ -149,18 +144,18 @@ const Footer = () => {
               >
                 Partners
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="my-5 w-full border border-solid border-[#101010]"></div>
           <div className="flex flex-col items-center justify-between md:flex-row pb-5">
             <div className="flex-none">
               <p className="text-gray-300 text-sm">
-                © Copyright 2021. All rights reserved.
+                © Copyright 2021. All rights reserved by 51 store.
               </p>
             </div>
             <div className="text-center">
               <Link
-                href="/"
+                href="/terms-service"
                 className="inline-block py-2 pl-5 pr-0 font-bold text-gray-300 text-sm transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
               >
                 Terms of Service
@@ -172,10 +167,10 @@ const Footer = () => {
                 License
               </Link>
               <Link
-                href="/"
+                href="/contact"
                 className="inline-block py-2 pl-5 pr-0 font-bold text-gray-300 text-sm transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
               >
-                Privacy Policy
+                Contact
               </Link>
             </div>
           </div>

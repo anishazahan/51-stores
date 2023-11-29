@@ -6,9 +6,8 @@ export const featureData = [
     icon: <MdOutlineSettingsInputAntenna />,
     title: "Support",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "24/7 customer support to assist with any inventory-related issues.",
     details: [
-      "24/7 customer support to assist with any issues.",
       "Dedicated support team for quick problem resolution.",
       "Online knowledge base for self-help and troubleshooting.",
       "Regular updates and communication on system improvements.",
@@ -19,22 +18,20 @@ export const featureData = [
     icon: <MdOutlineSettingsInputAntenna />,
     title: "Resource",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Access a comprehensive library of resources and documentation for effective inventory management.",
     details: [
-      "Comprehensive library of resources and documentation.",
       "Guides and tutorials for efficient system utilization.",
       "Regularly updated FAQs to address common queries.",
       "Access to whitepapers and case studies for advanced insights.",
-      "Interactive demos for hands-on learning experience.",
+      "Interactive demos for a hands-on learning experience.",
     ],
   },
   {
     icon: <MdOutlineSettingsInputAntenna />,
     title: "Quality",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Ensure strict adherence to quality standards and regulations in your inventory processes.",
     details: [
-      "Strict adherence to quality standards and regulations.",
       "Continuous monitoring of system performance.",
       "Regular quality audits and improvement initiatives.",
       "Customer feedback integration for continuous enhancement.",
@@ -45,12 +42,11 @@ export const featureData = [
     icon: <MdOutlineSettingsInputAntenna />,
     title: "Speed",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Experience fast and efficient inventory processing and updates for optimal performance.",
     details: [
-      "Fast and efficient inventory processing and updates.",
       "Optimized algorithms for quick data retrieval.",
       "Real-time syncing for immediate changes across the system.",
-      "Reduced latency for seamless user experience.",
+      "Reduced latency for a seamless user experience.",
       "Performance monitoring and enhancement strategies.",
     ],
   },
@@ -58,9 +54,8 @@ export const featureData = [
     icon: <MdOutlineSettingsInputAntenna />,
     title: "Flexibility",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Adapt your inventory management to different needs with customizable workflows and scalable solutions.",
     details: [
-      "Adaptability to different inventory management needs.",
       "Customizable workflows to align with specific requirements.",
       "Scalability to accommodate growing business demands.",
       "Integration capabilities with third-party applications.",
@@ -69,13 +64,11 @@ export const featureData = [
   },
   {
     icon: <MdOutlineSettingsInputAntenna />,
-    title: "Organise",
+    title: "Organize",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Efficiently organize and categorize your inventory items with advanced search and filter options.",
     details: [
-      "Efficient organization and categorization of inventory items.",
       "Hierarchical structure for logical grouping of products.",
-      "Advanced search and filter options for quick retrieval.",
       "Tagging and labeling features for easy identification.",
       "Bulk actions for streamlined organizational tasks.",
     ],

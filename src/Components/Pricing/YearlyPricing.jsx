@@ -6,13 +6,13 @@ const YearlyPricing = () => {
       <section>
         <div className="pb-16 custom-container">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-4">
-            <div className="mx-auto max-w-md items-start rounded-md border border-[#cdcdcd] p-8">
+            <div className="mx-auto max-w-md items-start rounded-md border border-[#cdcdcd] hover:bg-[#f2f2f7] duration-200 p-8">
               <div className="mb-4 w-fit rounded-[5px] bg-primary px-4 py-1.5">
                 <p className="text-sm font-bold text-white">BASIC</p>
               </div>
               <p className="mb-6 text-sm font-light text-[#636262] sm:text-base md:mb-10">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit
+                Basic inventory management features, suitable for small
+                businesses.
               </p>
               <h2 className="mb-5 text-3xl font-bold md:mb-6 md:text-5xl">
                 $99<span className="text-sm font-light sm:text-sm">/year</span>
@@ -70,8 +70,8 @@ const YearlyPricing = () => {
                 <p className="text-sm font-bold text-white">GROWTH</p>
               </div>
               <p className="mb-6 text-sm font-light text-[#636262] sm:text-base md:mb-10">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit
+                Advanced features for growing businesses with increased
+                inventory needs.
               </p>
               <h2 className="mb-5 text-3xl font-bold md:mb-6 md:text-5xl">
                 $149<span className="text-sm font-light sm:text-sm">/year</span>
@@ -124,13 +124,13 @@ const YearlyPricing = () => {
               </div>
             </div>
 
-            <div className="mx-auto max-w-md items-start rounded-md border border-[#cdcdcd] p-8">
+            <div className="mx-auto hover:bg-[#f2f2f7] duration-200  max-w-md items-start rounded-md border border-[#cdcdcd] p-8">
               <div className="mb-4 w-fit rounded-[5px] bg-primary px-4 py-1.5">
                 <p className="text-sm font-bold text-white">PREMIUM</p>
               </div>
               <p className="mb-6 text-sm font-light text-[#636262] sm:text-base md:mb-10">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit
+                Comprehensive features for large enterprises with complex
+                inventory management requirements.
               </p>
               <h2 className="mb-5 text-3xl font-bold md:mb-6 md:text-5xl">
                 $299<span className="text-sm font-light sm:text-sm">/year</span>

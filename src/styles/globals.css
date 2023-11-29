@@ -111,7 +111,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .RetailImg {
@@ -120,7 +120,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .contact-banner {
@@ -134,7 +134,7 @@
 
 .pricing-banner {
   /* background: url("../assets/image/retail.jpeg"); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/image/Pricing-strategy-banner-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/image/images (1).jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

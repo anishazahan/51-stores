@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MonthlyPricing = () => {
@@ -6,24 +7,26 @@ const MonthlyPricing = () => {
       <section>
         <div className="custom-container pb-16 ">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 md:gap-10">
-            <div className="mx-auto w-full max-w-md">
-              <div className="rounded-md bg-[#f2f2f7] p-10">
-                <div className="mb-4 w-fit rounded-[4px] bg-primary px-4 py-1.5">
-                  <p className="text-sm font-bold text-white">Free Plan</p>
+            <div className="mx-auto w-full max-w-md group">
+              <div className="rounded-md bg-[#f2f2f7] group-hover:bg-primary duration-300 p-10">
+                <div className="mb-4 w-fit rounded-[4px] bg-primary group-hover:bg-white px-4 py-1.5">
+                  <p className="text-sm font-bold text-white group-hover:text-black hover">
+                    Free Plan
+                  </p>
                 </div>
-                <h2 className="mb-5 text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">
+                <h2 className="mb-5 group-hover:text-white text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">
                   $99<span className="text-sm font-light">/Month</span>
                 </h2>
-                <p className="text-body mb-5 font-light text-[#636262] md:mb-6 lg:mb-8">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit
+                <p className="text-body mb-5 font-light text-gray-800 md:mb-6 lg:mb-8">
+                  Basic inventory management features, suitable for small
+                  businesses.
                 </p>
-                <a
+                <Link
                   href="#"
-                  className="inline-block w-full rounded-md bg-primary px-6 py-3 text-center font-semibold text-white"
+                  className="inline-block w-full rounded-md bg-primary group-hover:bg-white px-6 py-3 text-center font-semibold group-hover:text-black text-white"
                 >
                   Get started
-                </a>
+                </Link>
               </div>
 
               <div className="mt-10 space-y-4 ">
@@ -42,7 +45,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Premium Component{" "}
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Basic inventory tracking
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -60,7 +63,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Exclusive Freebies
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Limited product categories
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -78,7 +81,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Monthly Free Exclusive
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Email support
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -96,7 +99,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Customer Support
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Basic inventory tracking
                   </p>
                 </div>
               </div>
@@ -126,8 +129,8 @@ const MonthlyPricing = () => {
                   $149<span className="text-sm font-light">/Month</span>
                 </h2>
                 <p className="text-body mb-5 font-light text-gray-300 md:mb-6 lg:mb-8">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit
+                  Advanced features for growing businesses with increased
+                  inventory needs.
                 </p>
                 <a
                   href="#"
@@ -153,7 +156,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Premium Component{" "}
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Advanced inventory tracking
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -171,7 +174,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Exclusive Freebies
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Unlimited product categories
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -189,7 +192,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Monthly Free Exclusive
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Priority email support
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -207,27 +210,29 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Customer Support
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Advanced inventory tracking
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="mx-auto w-full max-w-md">
-              <div className="rounded-md bg-[#f2f2f7] p-10">
-                <div className="mb-4 w-fit rounded-[4px] bg-primary px-4 py-1.5">
-                  <p className="text-sm font-bold text-white">Accelerate</p>
+            <div className="mx-auto w-full max-w-md group">
+              <div className="rounded-md bg-[#f2f2f7] duration-300 group-hover:bg-primary  p-10">
+                <div className="mb-4 w-fit rounded-[4px] bg-primary group-hover:bg-white px-4 py-1.5">
+                  <p className="text-sm font-bold text-white group-hover:text-black">
+                    Accelerate
+                  </p>
                 </div>
-                <h2 className="mb-5 text-3xl font-bold md:mb-6 md:text-5xl lg:mb-8">
+                <h2 className="mb-5 text-3xl group-hover:text-white font-bold md:mb-6 md:text-5xl lg:mb-8">
                   $249<span className="text-sm font-light">/Month</span>
                 </h2>
-                <p className="text-body mb-5 font-light text-[#636262] md:mb-6 lg:mb-8">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit
+                <p className="text-body mb-5 font-light text-gray-800 md:mb-6 lg:mb-8">
+                  Comprehensive features for large enterprises with complex
+                  inventory management requirements.
                 </p>
                 <a
                   href="#"
-                  className="inline-block w-full rounded-md bg-primary px-6 py-3 text-center font-semibold text-white"
+                  className="inline-block w-full rounded-md bg-primary group-hover:bg-white px-6 py-3 text-center font-semibold text-white group-hover:text-black"
                 >
                   Get started
                 </a>
@@ -249,7 +254,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Premium Component{" "}
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Comprehensive inventory management
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -267,7 +272,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Exclusive Freebies
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    Advanced reporting
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -285,7 +290,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Monthly Free Exclusive
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    24/7 customer support
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -303,7 +308,7 @@ const MonthlyPricing = () => {
                     <span className="font-bold text-black">
                       Customer Support
                     </span>{" "}
-                    Lorem ipsum dolor sit amet consecteur adipiscing.
+                    24/7 customer support
                   </p>
                 </div>
               </div>

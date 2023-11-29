@@ -116,7 +116,7 @@ const Navbar = () => {
             >
               Pricing
             </Link>
-            <Link
+            {/* <Link
               href="/terms-service"
               className={`font-semibold text-sm uppercase  ${
                 router.pathname === "/terms-service"
@@ -125,7 +125,7 @@ const Navbar = () => {
               }`}
             >
               Terms of Service
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className={`font-semibold text-sm uppercase  ${
@@ -197,10 +197,7 @@ const Navbar = () => {
             </div>
 
             <div className=" flex flex-col ">
-              <div
-                onClick={() => setShowDropDown(!showDropdown)}
-                className="group  "
-              >
+              <div className="group  ">
                 <Link
                   href="/"
                   className={`hover:bg-gray-200 py-3 mb-1 px-2 w-full font-semibold text-[18px] outline-none focus:outline-none rounded-sm flex items-center ${
@@ -208,20 +205,29 @@ const Navbar = () => {
                   }`}
                 >
                   <span className=" font-medium flex-1 pr-1">Use Cases</span>
-                  <span>
-                    <svg
-                      className={`fill-current mt-2 h-6 w-6 transform
+                  {showDropdown ? (
+                    <p
+                      onClick={() => setShowDropDown(false)}
+                      className="6xl text-primary font-bold pl-10 pr-3"
+                    >
+                      x
+                    </p>
+                  ) : (
+                    <span onClick={() => setShowDropDown(true)}>
+                      <svg
+                        className={`fill-current mt-2 h-6 w-6 transform
                       transition duration-150 ease-in-out  ${
                         showDropdown ? "-rotate-180" : "-rotate-180"
                       }`}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                    </svg>
-                  </span>
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+                    </span>
+                  )}
                 </Link>
-                {showDropdown && (
+                {showDropdown ? (
                   <div className="scale-up-ver-top top-16 group-hover:block bg-gray-200 px-6 py-5 w-full lg:w-[700px] ">
                     <h2 className="text-xl font-bold mb-2 ">Features</h2>
                     <div className=" flex gap-2 flex-col lg:flex-row items-center ">
@@ -278,11 +284,13 @@ const Navbar = () => {
                       </Link>
                     </div>
                   </div>
+                ) : (
+                  ""
                 )}
               </div>
 
               <Link
-                href="/"
+                href="/pricing"
                 className={`font-semibold mt-1 text-sm hover:bg-gray-200 py-3 px-2 ${
                   router.pathname === "/" ? "text-primary" : "text-black-800 "
                 }`}
@@ -290,7 +298,7 @@ const Navbar = () => {
                 Pricing
               </Link>
               <Link
-                href="/"
+                href="/contact"
                 className={`font-semibold text-sm hover:bg-gray-200 py-3 px-2 ${
                   router.pathname === "/" ? "text-primary" : "text-black-800 "
                 }`}
@@ -306,7 +314,7 @@ const Navbar = () => {
                   Login
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/"
                   className="px-4 hover:opacity-90 py-2  rounded-sm text-white font-semibold tracking-wider bg-primary"
                 >
                   Start Free Trial

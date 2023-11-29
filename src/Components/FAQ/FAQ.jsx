@@ -50,8 +50,9 @@ const FAQ = () => {
                 <h2 className="font-bold text-3xl md:text-5xl">General FAQs</h2>
                 <div className="mt-4 max-w-[528px]">
                   <p className="text-[#636262] max-[479px]:text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                    aliquam,purus sit amet luctus magna fringilla urna
+                    Today's business needs flexible, powerful, and enjoyable
+                    cloud inventory software — the days of desktop solutions are
+                    over.
                   </p>
                 </div>
               </div>
@@ -62,7 +63,7 @@ const FAQ = () => {
                     <div className="max-w-[380px]">
                       <p className="text-[#636262] max-[479px]:text-sm">
                         Can’t find the answer you’re looking for? Please chat to
-                        lorem
+                        51 store
                       </p>
                     </div>
                   </div>
@@ -70,7 +71,7 @@ const FAQ = () => {
                 <div className="mb-6 mt-8 h-[0.5px] w-full bg-[#a6a6a6]"></div>
                 <Link
                   href="#"
-                  className="inline-block items-center bg-secondary px-6 py-3 text-center font-semibold text-white"
+                  className="inline-block items-center bg-primary px-6 py-3 text-center font-semibold text-white"
                 >
                   Get In Touch
                 </Link>

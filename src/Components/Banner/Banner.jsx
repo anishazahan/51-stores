@@ -14,8 +14,10 @@ const Banner = () => {
             </h1>
             <p className="mb-6 max-w-lg text-sm text-[#636262] md:mb-10 lg:mb-12">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus{" "}
+              Turn your smartphone or tablet into a powerful POS. Manage sales,
+              inventory and employees with ease; engage customers and increase
+              your revenue. Whether you have single or multiple stores, our
+              tools help run your business.
             </p>
 
             <div className="flex items-center">
@@ -40,8 +42,9 @@ const Banner = () => {
             </div>
             <div className="mb-4 mt-10  pl-4 border-l-2 border-primary">
               <p className="text-sm text-[#636262]">
-                A secure and convenient payment app that makes transactions a
-                breeze, offering a seamless way to manage finances on the go.
+                Discover the power of real-time product visibility, from precise
+                locations to timely arrivals, ensuring seamless operations and
+                efficient order fulfillment.
               </p>
             </div>
           </div>

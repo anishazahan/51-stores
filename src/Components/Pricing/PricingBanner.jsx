@@ -6,7 +6,7 @@ const PricingBanner = () => {
     <div
       className={`pricing-banner h-full flex justify-center items-center flex-col`}
     >
-      <p className="text-[20px] text-white text-center px-5 pb-[36px]">
+      <p className="text-3xl font-semibold mb-3 max-w-xl text-white text-center px-5 pb-[36px]">
         Risk-Free Trial: Try it for 14 days, on us. 100% satisfaction guaranteed
       </p>
       <div className="">

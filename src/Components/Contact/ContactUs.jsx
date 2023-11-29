@@ -8,9 +8,9 @@ const ContactUs = () => {
   return (
     <>
       <ContactBanner />
-      <ContactCard />
+      {/* <ContactCard /> */}
       <ContactForm />
-      <GetStarted />
+      {/* <GetStarted /> */}
     </>
   );
 };

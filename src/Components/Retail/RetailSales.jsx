@@ -32,7 +32,7 @@ const RetailSales = () => {
             </div>
           </div>
 
-          <Image className="h-[500px] object-cover w-full" src={img} alt="" />
+          {/* <Image className="h-[500px] object-cover w-full" src={img} alt="" /> */}
         </div>
       </section>
     </div>

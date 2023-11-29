@@ -11,7 +11,7 @@ const Pricing = () => {
       <PricingBanner />
       <SimplePricing />
       <TabPricing />
-      <OptionalPricing />
+      {/* <OptionalPricing /> */}
       <FAQ />
     </>
   );

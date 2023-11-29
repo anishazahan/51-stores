@@ -21,8 +21,8 @@ const Testimonial = () => {
               </h2>
               <div className="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
                 <p className="text-[#636262]">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam,purus sit amet luctus magna fringilla urna
+                  51 store really has transformed the way we look at taking,
+                  tracking, and managing transactions.
                 </p>
               </div>
             </div>
@@ -34,9 +34,8 @@ const Testimonial = () => {
                 <p className="text-sm text-[#636262]">Designer</p>
               </div>
               <p className="mb-4 text-[#636262] text-sm">
-                “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus venenatis elit ut aliquam, purus sit amet luctus
-                venenatis"
+                51 store system is easy to program and to use, besides it is so
+                easy to add pictures to aid staff as well.
               </p>
               <div className="flex space-x-1 items-center">
                 <button className="text-xl text-pink-600">
@@ -69,9 +68,8 @@ const Testimonial = () => {
                 <p className="text-sm text-[#636262]">Designer</p>
               </div>
               <p className="mb-4 text-[#636262] text-sm">
-                “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus venenatis elit ut aliquam, purus sit amet luctus
-                venenatis"
+                51 store has helped us manage our business easily regardless of
+                distance.
               </p>
               <div className="flex items-center space-x-1">
                 <button className="text-xl text-pink-600">
@@ -104,9 +102,8 @@ const Testimonial = () => {
                 <p className="text-sm text-[#636262]">Designer</p>
               </div>
               <p className="mb-4 text-[#636262] text-sm">
-                “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
-                amet luctus venenatis elit ut aliquam, purus sit amet luctus
-                venenatis"
+                51 store really has transformed the way we look at taking,
+                tracking, and managing transactions.
               </p>
               <div className="flex space-x-1 items-center">
                 <button className="text-xl text-pink-600">

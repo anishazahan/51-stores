@@ -30,7 +30,7 @@ const MainTab = () => {
           <button
             key={tab}
             className={`text-gray-800 flex-justify-center text-center py-6 text-sm uppercase font-bold px-5 custom-shadow ${
-              activeTab === tab ? "bg-secondary text-white" : ""
+              activeTab === tab ? "bg-primary text-white" : ""
             }`}
             onClick={() => handleTabClick(tab)}
           >

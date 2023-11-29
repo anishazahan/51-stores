@@ -16,8 +16,8 @@ const Feature = () => {
               Make every step user-centric
             </h2>
             <p className="mx-auto mb-8 mt-4 max-w-[528px] text-[#636262] md:mb-12 lg:mb-16">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-              aliquam,purus sit amet luctus magna fringilla urna
+              Elevate inventory control with real-time insights to prevent
+              stockouts and overstocking, and boost customer satisfaction
             </p>
           </div>
           {/* <!-- Features --> */}
