@@ -24,8 +24,9 @@ const CafeSales = () => {
               </h2>
               <div className="max-w-[480px]">
                 <p className="text-[#647084]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                  aliquam, purus sit amet luctus venenatis, lectus
+                  Build personal engagement with your customers and turn them
+                  into constant visitors of your coffee shop by rewarding each
+                  purchases.
                 </p>
               </div>
 
