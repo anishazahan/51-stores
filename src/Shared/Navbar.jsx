@@ -228,12 +228,13 @@ const Navbar = () => {
                   )}
                 </Link>
                 {showDropdown ? (
-                  <div className="scale-up-ver-top top-16 group-hover:block bg-gray-200 px-6 py-5 w-full lg:w-[700px] ">
+                  <div className="scale-up-ver-top top-16 group-hover:block bg-gray-200 px-3 py-5 w-full lg:w-[700px] ">
                     <h2 className="text-xl font-bold mb-2 ">Features</h2>
                     <div className=" flex gap-2 flex-col lg:flex-row items-center ">
                       <Link
+                        onClick={() => setIsMenuOpen(false)}
                         href="/retail"
-                        className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150"
+                        className="flex items-center py-5 space-x-4 px-2 hover:bg-white duration-150"
                       >
                         <button className="text-xl p-3 bg-primary text-white">
                           <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
@@ -251,8 +252,9 @@ const Navbar = () => {
                     </div>
                     <div className=" flex gap-2 flex-col lg:flex-row items-center ">
                       <Link
+                        onClick={() => setIsMenuOpen(false)}
                         href="cafe"
-                        className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150"
+                        className="flex  items-center space-x-4 py-5 px-2 hover:bg-white duration-150"
                       >
                         <button className="text-xl p-3 bg-primary text-white">
                           <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
@@ -266,8 +268,9 @@ const Navbar = () => {
                         </div>
                       </Link>
                       <Link
+                        onClick={() => setIsMenuOpen(false)}
                         href="/restaurant"
-                        className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150"
+                        className="flex items-center py-5 space-x-4 px-2 hover:bg-white duration-150"
                       >
                         <button className="text-xl p-3 bg-primary text-white">
                           <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
@@ -290,6 +293,7 @@ const Navbar = () => {
               </div>
 
               <Link
+                onClick={() => setIsMenuOpen(false)}
                 href="/pricing"
                 className={`font-semibold mt-1 text-sm hover:bg-gray-200 py-3 px-2 ${
                   router.pathname === "/" ? "text-primary" : "text-black-800 "
@@ -298,6 +302,7 @@ const Navbar = () => {
                 Pricing
               </Link>
               <Link
+                onClick={() => setIsMenuOpen(false)}
                 href="/contact"
                 className={`font-semibold text-sm hover:bg-gray-200 py-3 px-2 ${
                   router.pathname === "/" ? "text-primary" : "text-black-800 "

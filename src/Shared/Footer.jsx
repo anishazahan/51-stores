@@ -6,172 +6,91 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-black/90">
-        <div className="mx-auto custom-container pt-10 ">
-          <div className="grid grid-cols-[auto_1fr] justify-between gap-10 sm:grid-cols-3 lg:grid-cols-[0.45fr_auto_auto_auto]">
-            <div className="flex max-w-[400px] flex-col gap-8 max-[991px]:[grid-area:span_1/span_3/span_1/span_3] max-[700px]:[grid-area:span_1/span_2/span_1/span_2]">
+      <footer class="block bg-black/90">
+        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 ">
+          <div class="flex flex-row justify-between max-[767px]:flex-col max-[767px]:items-start">
+            <div class="max-[767px]: w-full max-w-[560px] max-[991px]:mr-4 max-[991px]:flex-initial">
               <Link href="/" className="flex items-center">
                 <Image className="w-28" src={logo} alt="" />
               </Link>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-400 text-sm mt-5">
                 Whether you're buying and reselling or manufacturing your
                 products 51 store supports the operations you need to grow your
                 business.
               </p>
-              <div className="mx-0 mb-4 w-full">
-                <form
-                  name="email-form"
-                  method="get"
-                  className="relative flex max-w-full items-center justify-center"
+            </div>
+            <div class="max-[767px]: max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:mt-8">
+              <div class="mb-4 flex flex-col max-w-[272px] items-start justify-start">
+                <Link
+                  href="/"
+                  class="text-gray-300 max-[479px]:text-sm font-semibold"
                 >
-                  <input
-                    type="email"
-                    className="m-0 block h-full max-h-8 w-full rounded-lg outline-none border-0 bg-[#101010] px-3 py-6 align-middle text-sm text-gray-300  focus:outline-0"
-                    maxLength="256"
-                    name="email-4"
-                    placeholder="Enter your email"
-                    required=""
-                  />
-                  <div className="absolute bottom-[0%] left-[auto] right-[5%] top-[25%] text-primary">
-                    <svg
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M20.9752 3.02708C20.7866 2.83863 20.5512 2.70382 20.2932 2.63651C20.0353 2.5692 19.764 2.57182 19.5074 2.64411L2.0391 7.57102C1.74519 7.65391 1.48358 7.82454 1.28924 8.0601C1.0949 8.29565 0.977084 8.58491 0.951545 8.88922C0.926006 9.19353 0.993958 9.49838 1.14632 9.76303C1.29868 10.0277 1.52819 10.2395 1.80418 10.3702L9.11045 13.8311L14.1057 8.83591C14.2463 8.69525 14.4371 8.61623 14.636 8.61623C14.835 8.61623 15.0257 8.69525 15.1664 8.83591C15.3071 8.97657 15.3861 9.16735 15.3861 9.36628C15.3861 9.5652 15.3071 9.75598 15.1664 9.89664L10.1712 14.8919L13.6321 22.1981C13.7519 22.4552 13.9429 22.6726 14.1823 22.8246C14.4218 22.9767 14.6997 23.057 14.9834 23.0562C15.0263 23.0562 15.0696 23.0544 15.1131 23.0508C15.418 23.0269 15.708 22.9097 15.9439 22.7151C16.1798 22.5205 16.35 22.258 16.4313 21.9632L21.3582 4.49494C21.4304 4.2383 21.433 3.96707 21.3657 3.7091C21.2984 3.45112 21.1636 3.21572 20.9752 3.02708Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </div>
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    className="absolute bottom-[0%] left-[auto] right-[0%] top-[0%] m-0 inline-block cursor-pointer rounded-[60px] border border-solid border-primary bg-primary px-6 py-4 text-center font-bold text-black no-underline opacity-0 transition hover:border-black hover:bg-white"
-                  />
-                </form>
+                  {" "}
+                  Inventory Management
+                </Link>
+                <div className="pl-2 flex flex-col space-y-1 mt-1">
+                  <Link
+                    href="/cafe"
+                    class="text-gray-300 max-[479px]:text-sm hover:text-primary"
+                  >
+                    {" "}
+                    Cafe
+                  </Link>
+                  <Link
+                    href="/retail"
+                    class="text-gray-300 max-[479px]:text-sm hover:text-primary"
+                  >
+                    {" "}
+                    Retail
+                  </Link>
+                  <Link
+                    href="/restaurant"
+                    class="text-gray-300 max-[479px]:text-sm hover:text-primary"
+                  >
+                    {" "}
+                    Restaurant
+                  </Link>
+                </div>
               </div>
-              <div>
-                <p className="font-bold uppercase text-gray-500">email us</p>
-                <p className="text-gray-300 text-sm">51Store@gmail.com</p>
+              <div class="mb-4 flex max-w-[272px] items-start justify-start">
+                <Link
+                  href="/"
+                  class="text-gray-300 max-[479px]:text-sm font-semibold"
+                >
+                  {" "}
+                  Pos System
+                </Link>
               </div>
             </div>
-            <div className="flex flex-col items-start font-semibold">
-              <p className="mb-4 text-sm font-medium text-white">Solution</p>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Marketing
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Analytics
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Commerce
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Insights
-              </Link>
-            </div>
-            <div className="flex flex-col items-start font-semibold">
-              <p className="mb-4 text-sm font-medium text-white">Support</p>
-              <Link
-                href="/pricing"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Pricing
-              </Link>
-              <Link
-                href="/restaurant"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Restaurant
-              </Link>
-              <Link
-                href="/retail"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Retail
-              </Link>
-              <Link
-                href="/cafe"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Cafe
-              </Link>
-            </div>
-            {/* <div className="flex flex-col items-start font-semibold">
-              <p className="mb-4 text-sm font-medium text-white">Company</p>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                About
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Blog
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Jobs
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Press
-              </Link>
-              <Link
-                href="/"
-                className="py-2 text-sm font-bold text-gray-400 transition hover:text-white"
-              >
-                Partners
-              </Link>
-            </div> */}
           </div>
-          <div className="my-5 w-full border border-solid border-[#101010]"></div>
-          <div className="flex flex-col items-center justify-between md:flex-row pb-5">
-            <div className="flex-none">
-              <p className="text-gray-300 text-sm">
-                © Copyright 2021. All rights reserved by 51 store.
-              </p>
-            </div>
-            <div className="text-center">
-              <Link
+          <div class="mb-8 mt-8 w-full [border-bottom:1.7px_solid_rgb(0,_0,_0)]"></div>
+          <div class="flex flex-row justify-between max-[991px]:items-center max-[767px]:flex-col max-[767px]:items-start max-[479px]:flex-col-reverse">
+            <div class="max-[991px]: text-center font-semibold max-[991px]:py-1 max-[479px]:mb-4 sm:text-center">
+              <a
                 href="/terms-service"
-                className="inline-block py-2 pl-5 pr-0 font-bold text-gray-300 text-sm transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
+                class="inline-block py-1.5 pr-6  text-gray-300 transition hover:text-primary font-semibold sm:py-2 sm:pr-6 lg:pr-12"
               >
                 Terms of Service
-              </Link>
-              <Link
-                href="/"
-                className="inline-block py-2 pl-5 pr-0 font-bold text-gray-300 text-sm transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
+              </a>
+              <a
+                href="/pricing"
+                class="inline-block py-1.5 pr-6 text-gray-300 transition hover:text-primary font-semibold sm:py-2 sm:pr-6 lg:pr-12"
               >
-                License
-              </Link>
-              <Link
+                Pricing
+              </a>
+              <a
                 href="/contact"
-                className="inline-block py-2 pl-5 pr-0 font-bold text-gray-300 text-sm transition hover:text-white max-[479px]:px-2.5 lg:pl-12"
+                class="inline-block py-1.5 pr-6 text-gray-300 transition hover:text-primary font-semibold sm:py-2 sm:pr-6 lg:pr-12"
               >
                 Contact
-              </Link>
+              </a>
+            </div>
+            <div class="max-[991px]:flex-none">
+              <p class="text-gray-300 max-[479px]:text-sm">
+                {" "}
+                © Copyright 2021. All rights reserved by{" "}
+                <span className="text-secondary font-semibold">51 store.</span>
+              </p>
             </div>
           </div>
         </div>
