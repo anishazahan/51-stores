@@ -56,6 +56,23 @@ const Navbar = () => {
 
                 <div className=" flex gap-5 flex-col lg:flex-row items-center ">
                   <Link
+                    href="/retail"
+                    className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150"
+                  >
+                    <button className="text-xl p-3 bg-secondary text-white">
+                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
+                    </button>
+                    <div className="">
+                      <h2 className="font-bold text-sm uppercase">
+                        {" "}
+                        Retails Shop & Supper Market
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        Real Time Inventory Sites From Materials to finish good
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
                     href="/restaurant"
                     className="flex  items-center space-x-4 py-5 px-4 hover:bg-white duration-150"
                   >
@@ -64,22 +81,8 @@ const Navbar = () => {
                     </button>
                     <div className="">
                       <h2 className="font-bold text-sm uppercase">
-                        Restaurant
+                         Shops & Bar
                       </h2>
-                      <p className="text-sm text-gray-600">
-                        Real Time Inventory Sites From Materials to finish good
-                      </p>
-                    </div>
-                  </Link>
-                  <Link
-                    href="/retail"
-                    className="flex items-center py-5 space-x-4 px-4 hover:bg-white duration-150"
-                  >
-                    <button className="text-xl p-3 bg-secondary text-white">
-                      <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
-                    </button>
-                    <div className="">
-                      <h2 className="font-bold text-sm uppercase">Retail</h2>
                       <p className="text-sm text-gray-600">
                         Real Time Inventory Sites From Materials to finish good
                       </p>
@@ -95,7 +98,10 @@ const Navbar = () => {
                       <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                     </button>
                     <div className="">
-                      <h2 className="font-bold text-sm uppercase">Cafe</h2>
+                      <h2 className="font-bold text-sm uppercase">
+                        {" "}
+                        Restaurant & Cafeteria
+                      </h2>
                       <p className="text-sm text-gray-600">
                         Real Time Inventory Sites From Materials to finish good
                       </p>
@@ -116,16 +122,7 @@ const Navbar = () => {
             >
               Pricing
             </Link>
-            {/* <Link
-              href="/terms-service"
-              className={`font-semibold text-sm uppercase  ${
-                router.pathname === "/terms-service"
-                  ? "text-primary"
-                  : "text-gray-800 "
-              }`}
-            >
-              Terms of Service
-            </Link> */}
+
             <Link
               href="/contact"
               className={`font-semibold text-sm uppercase  ${
@@ -241,7 +238,7 @@ const Navbar = () => {
                         </button>
                         <div className="">
                           <h2 className="font-bold text-sm uppercase">
-                            Retail
+                            Retails Shop & Supper Market
                           </h2>
                           <p className="text-sm text-gray-600">
                             Real Time Inventory Sites From Materials to finish
@@ -260,7 +257,10 @@ const Navbar = () => {
                           <MdOutlineSettingsInputAntenna></MdOutlineSettingsInputAntenna>
                         </button>
                         <div className="">
-                          <h2 className="font-bold text-sm uppercase">Cafe</h2>
+                          <h2 className="font-bold text-sm uppercase">
+                            {" "}
+                            Restaurant & Cafeteria
+                          </h2>
                           <p className="text-sm text-gray-600">
                             Real Time Inventory Sites From Materials to finish
                             good
@@ -277,7 +277,7 @@ const Navbar = () => {
                         </button>
                         <div className="">
                           <h2 className="font-bold text-sm uppercase">
-                            Restaurant
+                             Shops & Bar
                           </h2>
                           <p className="text-sm text-gray-600">
                             Real Time Inventory Sites From Materials to finish

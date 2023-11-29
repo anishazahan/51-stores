@@ -21,45 +21,33 @@ const Footer = () => {
             </div>
             <div class="max-[767px]: max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:mt-8">
               <div class="mb-4 flex flex-col max-w-[272px] items-start justify-start">
-                <Link
-                  href="/"
-                  class="text-gray-300 max-[479px]:text-sm font-semibold"
-                >
+                <p class="text-gray-300 max-[550px]:text-sm whitespace-nowrap mb-2 font-semibold">
                   {" "}
-                  Inventory Management
-                </Link>
+                  Inventory Management  &  POS System
+                </p>
                 <div className="pl-2 flex flex-col space-y-1 mt-1">
                   <Link
                     href="/cafe"
                     class="text-gray-300 max-[479px]:text-sm hover:text-primary"
                   >
                     {" "}
-                    Cafe
+                    Restaurant & Cafeteria
                   </Link>
                   <Link
                     href="/retail"
                     class="text-gray-300 max-[479px]:text-sm hover:text-primary"
                   >
                     {" "}
-                    Retail
+                    Retails Shop & Supper Market
                   </Link>
                   <Link
                     href="/restaurant"
                     class="text-gray-300 max-[479px]:text-sm hover:text-primary"
                   >
                     {" "}
-                    Restaurant
+                     Shops & Bar
                   </Link>
                 </div>
-              </div>
-              <div class="mb-4 flex max-w-[272px] items-start justify-start">
-                <Link
-                  href="/"
-                  class="text-gray-300 max-[479px]:text-sm font-semibold"
-                >
-                  {" "}
-                  Pos System
-                </Link>
               </div>
             </div>
           </div>
@@ -88,8 +76,8 @@ const Footer = () => {
             <div class="max-[991px]:flex-none">
               <p class="text-gray-300 max-[479px]:text-sm">
                 {" "}
-                © Copyright 2021. All rights reserved by{" "}
-                <span className="text-secondary font-semibold">51 store.</span>
+                © Copyright 2023. All rights reserved by{" "}
+                <span className="text-secondary font-semibold">51 stores.</span>
               </p>
             </div>
           </div>
